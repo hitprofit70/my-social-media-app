@@ -4,7 +4,7 @@ const RightSideBar = () => {
   return (
     <div className='right-sidebar'>
     <div className='container'>
-    <div className='text'>Chat</div>
+    <h5 className='text'>Chat</h5>
     </div>
     </div>
   )
