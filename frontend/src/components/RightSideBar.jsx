@@ -1,14 +1,13 @@
 import React from 'react'
 
-const LeftSideBar = () => {
+const RightSideBar = () => {
   return (
-    <div className='left-sidebar'>
+    <div className='right-sidebar'>
     <div className='container'>
     <div className='text'>Chat</div>
     </div>
     </div>
-   
   )
 }
 
-export default LeftSideBar
+export default RightSideBar

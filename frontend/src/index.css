@@ -9,3 +9,14 @@
 body {
     background: black;
 }
+
+.left-sidebar {
+    width: 20%;
+    background-color: aqua;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    border-right: solid 2px black;
+}
