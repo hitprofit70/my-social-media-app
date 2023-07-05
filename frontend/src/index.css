@@ -28,11 +28,35 @@ body {
 .main {
     width: 60%;
     height: 800px;
-    border-radius: 10px;
     background-color: rgb(249, 249, 249);
     margin-left: auto;
     margin-right: auto;
     margin-top: -800px;
     gap: 3rem;
     overflow-y: auto;
+    background: black;
+}
+
+.group-text .icon svg {
+    padding: 1px;
+    font-weight: bold;
+}
+
+.card .user-logo .user-name {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.card .user-logo {
+    display: flex;
+    margin: 5px;
+}
+
+.client-users img {
+    margin: -5px;
+}
+
+.card .user-logo svg {
+   margin-left: 650px;
+   
 }

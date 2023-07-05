@@ -1,13 +1,13 @@
 import React from 'react'
-import CardUsers from './CardUsers'
+import UsersCard from './UsersCard'
 
 const Main = () => {
     return (
         <div className='main'>
             <div className='container'>
-            <CardUsers/>
-            <CardUsers/>
-            <CardUsers/>
+            <UsersCard/>
+            <UsersCard/>
+            <UsersCard/>
             </div>
         </div>
     )
